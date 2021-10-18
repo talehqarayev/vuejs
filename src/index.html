@@ -31,13 +31,14 @@
 
             <div class="item" v-for="product in products">
 
-                <div class="item_img"><img v-bind:src="product.img" alt="Iphone">
+                <div class="item_img">
+                    <img v-bind:src="product.img" alt="Iphone">
                 </div>
                 <div class="item_name">
                     {{ product.title }}
                 </div>
                 <div class="item_price">
-                   US $ {{product.price}}
+                   US ${{product.price}}
                 </div>
                 
                 <button class="item_btn"> {{ btn.title }} </button>
